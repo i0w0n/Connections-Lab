@@ -1,0 +1,78 @@
+body {
+    background-color: greenyellow;
+    background-image: url('potato.png');
+    background-size: 40%;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+p {
+    color: rgb(0, 62, 0);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Titan One', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 10px;
+    height: 30%;
+    width: 80%;
+    
+}
+
+button {
+    background-color: green;
+    color: greenyellow;
+    border: none;
+    padding: 20px 60px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px #1e4408;
+    font-family: 'Titan One', cursive;
+}
+
+.button:hover {
+    background-color: #57a64a
+}
+
+.button:active {
+    background-color: #39823b;
+    box-shadow: 0 9px #1e4408;
+    transform: translateY(4px);
+  }
+
+
+h3 {
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.video {
+    margin: 10px;
+}
+
