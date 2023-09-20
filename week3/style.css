@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    
+}
+
+.bg {
+    background-image: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1600px;
+}
+
+.sticky {
+    display: flex;
+}
+
+button {
+    position: fixed;
+    right: 75%;
+    bottom: 80%;
+    width: 20px;
+    height: 40px;
+    
+}
+
+img {
+    position: fixed;
+    right: 70%;
+    bottom: 70%;
+    width: 150px;
+    height: 200px;
+}
+
+.sentence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+}
+
+.first {
+    font-size: 4vw;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80%;
+}
+
+.second {
+    font-size: 4vw;
+    color: gray;
+    padding-left: 10%;
+    padding-right: 10%;
+}
