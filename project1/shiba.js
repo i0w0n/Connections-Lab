@@ -14,7 +14,7 @@ window.addEventListener('load', function(){
 
     let button = this.document.getElementById('shibe-button');
     button.addEventListener('click', function(){
-        fetch("http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true")
+        fetch("https://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true")
         .then(response => response.json())
         .then(data => {
             let imageshibe = document.getElementById('s-img');
